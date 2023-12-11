@@ -73,7 +73,7 @@ const register = ({ total_users }) => {
     if (resData.status === true) {
       toast.success(resData.msg)
       setTimeout(() => {
-        // router.push('/login')
+        router.push('/login')
       }, 1000);
     } else {
       toast.error(resData.msg)

@@ -79,11 +79,13 @@ const visuals = ({ user }) => {
     )
   }
 
-  const handleCopy = () => {
+  const handleCopy = async () => {
+    console.log('📌navigator', navigator)
+    await navigator.clipboard.writeText(crrUser.referral)
     $("#copyIcon").removeClass('bi-clipboard')
     $("#copyIcon").removeClass('bi')
     $("#copyIcon").addClass('bi bi-clipboard-check text-success')
-    navigator?.clipboard?.writeText(crrUser.referral) ?? false
+    console.log('📌crrUser.referral', crrUser.referral)
   }
 
   return (
