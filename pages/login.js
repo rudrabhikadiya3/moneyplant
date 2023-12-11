@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const login = () => {
-    const [cred, setCred] = useState({ email: 'rudra1@gmail.com', paswd: 'Rudra@123' });
+    const [cred, setCred] = useState({ email: '', paswd: '' });
     const [loader, setLoader] = useState(false);
 
     const router = useRouter()

@@ -491,5 +491,3 @@ export const getServerSideProps = withSessionSsr(async ({ req }) => {
     props: { user: req.session.userSession || false, pkgData: pkgData.data, title: 'Home' }
   }
 })
-
-
