@@ -9,7 +9,7 @@ const register = ({ total_users }) => {
   const router = useRouter()
 
   const [loader, setLoader] = useState(false);
-  const [userDeatils, setUserDeatils] = useState({ name: 'rudra2', email: 'rudra2@gmail.com', paswd: 'Rudra@123', cpaswd: 'Rudra@123', referral: 'VHGFVT1' });
+  const [userDeatils, setUserDeatils] = useState({ name: '', email: '', paswd: '', cpaswd: '', referral: '' });
 
   const validateUserData = () => {
     const { name, email, referral, paswd, cpaswd } = userDeatils
@@ -73,7 +73,7 @@ const register = ({ total_users }) => {
     if (resData.status === true) {
       toast.success(resData.msg)
       setTimeout(() => {
-        // router.push('/login')
+        router.push('/login')
       }, 1000);
     } else {
       toast.error(resData.msg)
