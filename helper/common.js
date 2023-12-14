@@ -128,7 +128,7 @@ export const getDates = (d1, d2) => {
     d1 = d1 * 1000
     d2 = d2 * 1000
     var oneDay = 24 * 3600 * 1000;
-    for (var d = [], ms = d1 * 1, last = d2 * 1;ms < last;ms += oneDay) {
+    for (var d = [], ms = d1 * 1, last = d2 * 1; ms < last; ms += oneDay) {
         d.push(new Date(ms));
     }
     return d;
@@ -159,8 +159,7 @@ export const UTStoDate = (utc) => {
 //     for (let date = new Date(startDate);date <= endDate;date.setDate(date.getDate() + 1)) {
 //         dates.push(UTStoDate(new Date(date)));
 //     }
-//     console.log('startdate hr', startDate.getHours())
-//     console.log('asd', dates);
+
 // }
 
 // getDaysRange(1681903640, NOW)

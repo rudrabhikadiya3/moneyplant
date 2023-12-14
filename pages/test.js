@@ -19,7 +19,6 @@ const test = () => {
   //   );
 
   //   const data = await resp.text();
-  //   console.log(data);
   // }
   const CLIENT_ID = 'AaZ6Eoy7S6nKGCVZCdnT4TnpumXg0H_LkL0SWp3Ad3hk3wNseUoleU6_0dAuyRJ792irCeJtNYKfzPgO'
   const APP_SECRET = 'EM9seMZZw5nyGQqItPxUEAvWoYcw0m9PHXeXncq1ILzBajqjbJj9wmS6MzxAVTRn_4Q-yagl_hjlLPSs'
