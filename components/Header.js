@@ -31,13 +31,13 @@ const Header = ({ user }) => {
               </Link>
             </li>
             <li>
-              <Link className='nav-link scrollto' href='/#about'>
-                About
+              <Link className='nav-link scrollto' href='/#pricing'>
+                Packages
               </Link>
             </li>
             <li>
-              <Link className='nav-link scrollto' href='/#pricing'>
-                Packages
+              <Link className='nav-link scrollto' href='/#about'>
+                About
               </Link>
             </li>
             <li>
