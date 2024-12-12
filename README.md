@@ -8,7 +8,7 @@ After years of mastering frontend and backend development, I was ready to take o
 
 The idea struck me while diving into Peter Brass’s Advanced Data Structures. His take on tree structures was fascinating and elegant yet intricate. I decided to build a project focused on user management, using a data tree so complex it would be hard to explain, even verbally.
 
-This wasn’t just about coding; it was about pushing boundaries, solving puzzles, and creating something that felt like art in its own right. And with each step, I discovered not just how to build systems, but how to spend 3 evenings and 3 nights on 1 for-loop.
+This wasn’t just about coding; it was about pushing boundaries, solving puzzles, and creating something that felt like art in its own right. And at the final commit, I discovered not just how to build systems, but how to spend 3 evenings and 3 nights on 1 for-loop.
 
 ## Live URL
 
