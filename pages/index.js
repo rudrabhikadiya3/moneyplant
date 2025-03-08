@@ -2,8 +2,8 @@ import { withSessionSsr } from '@/helper/session'
 import Swal from 'sweetalert2'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 export default function Home({ user, pkgData }) {
   const router = useRouter()
@@ -162,18 +162,17 @@ export default function Home({ user, pkgData }) {
               data-aos='fade-up'
               data-aos-delay={200}
             >
-              <h1>Referrals that pay you back everytime</h1>
-              <p>
-                Earn rewards by sharing our packages with others and help them discover the benefits of what we offer through our referral program
-              </p>
+              <h1>Referrals that pay you back every time</h1>
+              <p>MLM system that gives you a commission by referring your friends,</p>
+              <p>Make your chain now to earn passive income</p>
               <div className='d-flex justify-content-center justify-content-lg-start'>
-                <a href='#pricing' className='btn-get-started scrollto'>
+                <Link href='/register' className='btn-get-started scrollto'>
                   Get Started
-                </a>
-                <a href='https://www.youtube.com/watch?v=jDDaplaOz7Q' className='glightbox btn-watch-video'>
+                </Link>
+                {/* <a href='https://www.youtube.com/watch?v=jDDaplaOz7Q' className='glightbox btn-watch-video'>
                   <i className='bi bi-play-circle' />
                   <span>Watch Video</span>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className='col-lg-6 order-1 order-lg-2 hero-img' data-aos='zoom-in' data-aos-delay={200}>
