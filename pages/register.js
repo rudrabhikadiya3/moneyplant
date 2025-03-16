@@ -72,9 +72,9 @@ const register = ({ total_users }) => {
     const resData = await res.json()
     if (resData.status === true) {
       toast.success(resData.msg)
-      setTimeout(() => {
-        router.push('/login')
-      }, 1000);
+      // setTimeout(() => {
+      //   router.push('/login')
+      // }, 1000);
     } else {
       toast.error(resData.msg)
     }
