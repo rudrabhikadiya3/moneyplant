@@ -9,7 +9,7 @@ const register = ({ total_users }) => {
   const router = useRouter()
 
   const [loader, setLoader] = useState(false);
-  const [userDeatils, setUserDeatils] = useState({ name: '', email: '', paswd: '', cpaswd: '', referral: 'QcBrpX1' });
+  const [userDeatils, setUserDeatils] = useState({ name: '', email: '', paswd: '', cpaswd: '', referral: 'H9l2L11' });
 
   const validateUserData = () => {
     const { name, email, referral, paswd, cpaswd } = userDeatils
